@@ -1,0 +1,40 @@
+
+/* Customize Bootstrap variables for a charcoal and pink theme */
+:root {
+  --bs-primary: #FF69B4; /* Pink */
+  --bs-secondary: #333; /* Charcoal */
+  --bs-light: #f8f9fa; /* Light gray background */
+  --bs-dark: #000; /* Dark text color */
+  --bs-body-color: var(--bs-dark);
+  --bs-body-bg: var(--bs-light);
+}
+
+/* Apply the charcoal and pink color scheme to your navigation */
+
+
+/* Apply the color scheme to other elements as needed */
+/* Example for a class named 'custom-element' */
+.custom-element {
+  color: var(--bs-primary); /* Pink text color */
+  background-color: var(--bs-secondary); /* Charcoal background color */
+}
+
+/* Add more custom styles to other elements as necessary */
+
+
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  

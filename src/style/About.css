@@ -1,0 +1,26 @@
+/* Define custom CSS variables */
+:root {
+    --bs-primary: #fc00a8; /* Pink */
+    --bs-secondary: #333; /* Charcoal */
+    --bs-light: #f8f9fa; /* Light gray background */
+    --bs-dark: #000; /* Dark text color */
+    --bs-body-color: var(--bs-dark);
+    --bs-body-bg: var(--bs-light);
+  }
+  
+  /* Define styles for the custom image class */
+  .custom-img {
+    width: 20px; /* Adjust the width as needed */
+    height: auto; /* To maintain the aspect ratio */
+  }
+  
+  /* Define styles for the custom image with border class */
+  .custom-img-with-border {
+    border: 2px solid #fc00a8 !important; /* Pink border */
+  }
+  
+  /* Define styles for the custom div class */
+  .custom-div {
+    background-color: #ffa1df;
+  }
+  

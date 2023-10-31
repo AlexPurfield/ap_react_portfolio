@@ -1,0 +1,28 @@
+
+/* Customize Bootstrap variables for a charcoal and pink theme */
+:root {
+    --bs-primary: #fc00a8; /* Pink */
+    --bs-secondary: #333; /* Charcoal */
+    --bs-light: #f8f9fa; /* Light gray background */
+    --bs-dark: #000; /* Dark text color */
+    --bs-body-color: var(--bs-dark);
+    --bs-body-bg: var(--bs-light);
+  }
+  
+  /* Apply the charcoal and pink color scheme to your navigation */
+  nav {
+    color: var(--bs-primary); /* Charcoal text color */
+    background-color: var(--bs-secondary); /* Pink background color */
+    
+  }
+  /* Custom CSS to change navigation link text color */
+.custom-nav-link {
+    color: #FF69B4; /* Pink color */
+  }
+  .custom-nav-link:focus, .custom-nav-link:active {
+    color: #FF69B4; 
+    background-color: lightslategray;/* Pink color */
+  }
+  .nav-tabs {
+    margin-right: 20px; /* Adjust the value as needed */
+  }
