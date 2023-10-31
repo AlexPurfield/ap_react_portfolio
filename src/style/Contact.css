@@ -1,10 +1,36 @@
 .form {
-    margin: 20px;
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  background-color: lightgray;
+  color: black;
+  ::placeholder {
+    color: black; /* Change placeholder color to black */
   }
-  
-  .form input {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 100%;
+}
+
+.form input[name="message"] {
+  height: 150px; /* Adjust the height as needed */
+  background-color: lightgrey;
+  color: black;
+  ::placeholder {
+    color: black; /* Change placeholder color to black */
   }
+}
+
+.container.text-left {
+  text-align: left;
+  /* Add any additional styling you want for the left alignment */
+}
+
+.light-grey-button {
+  background-color: #808080;
+  color: black; /* You can adjust the text color as needed */
+  margin: 10px; /* Add some space around the buttons */
+  padding: 10px 20px; /* Adjust the padding as needed */
+}
