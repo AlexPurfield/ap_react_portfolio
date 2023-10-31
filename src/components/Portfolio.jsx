@@ -15,10 +15,10 @@ export default function Portfolio() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="https://alexpurfield.github.io/password-generator/" className="btn btn-primary">
+            <a href="https://alexpurfield.github.io/password-generator/" className="btn light-grey-button">
               Live Site
             </a>
-            <a href="https://github.com/AlexPurfield/password-generator" className="btn btn-primary">
+            <a href="https://github.com/AlexPurfield/password-generator" className="btn light-grey-button">
               GitHub
             </a>
           </div>
@@ -31,10 +31,10 @@ export default function Portfolio() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="https://alexpurfield.github.io/code-quiz/ " className="btn btn-primary">
+            <a href="https://alexpurfield.github.io/code-quiz/ " className="btn light-grey-button">
               Live Site
             </a>
-            <a href="https://github.com/AlexPurfield/code-quiz" className="btn btn-primary">
+            <a href="https://github.com/AlexPurfield/code-quiz" className="btn light-grey-button">
               GitHub
             </a>
           </div>
@@ -47,10 +47,10 @@ export default function Portfolio() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="https://nfillip.github.io/harrypotter-fanpage/" className="btn btn-primary">
+            <a href="https://nfillip.github.io/harrypotter-fanpage/" className="btn light-grey-button">
               Live Site
             </a>
-            <a href="https://github.com/nfillip/harrypotter-fanpage" className="btn btn-primary">
+            <a href="https://github.com/nfillip/harrypotter-fanpage" className="btn light-grey-button">
               GitHub
             </a>
           </div>
@@ -63,10 +63,10 @@ export default function Portfolio() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/" className="btn btn-primary">
+            <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/" className="btn light-grey-button">
               Live Site
             </a>
-            <a href="https://github.com/ljkahn/littleSiteOfHorrors" className="btn btn-primary">
+            <a href="https://github.com/ljkahn/littleSiteOfHorrors" className="btn light-grey-button">
               GitHub
             </a>
           </div>
@@ -79,10 +79,10 @@ export default function Portfolio() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="https://secure-eyrie-45837-d5923870e1a2.herokuapp.com/" className="btn btn-primary">
+            <a href="https://secure-eyrie-45837-d5923870e1a2.herokuapp.com/" className="btn light-grey-button">
               Live Site
             </a>
-            <a href="https://github.com/AlexPurfield/ap_note_taker" className="btn btn-primary">
+            <a href="https://github.com/AlexPurfield/ap_note_taker" className="btn light-grey-button">
               GitHub
             </a>
           </div>
@@ -95,10 +95,10 @@ export default function Portfolio() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="https://alexpurfield.github.io/work_day_scheduler/" className="btn btn-primary">
+            <a href="https://alexpurfield.github.io/work_day_scheduler/" className="btn light-grey-button">
               Live Site
             </a>
-            <a href="https://github.com/AlexPurfield/work_day_scheduler" className="btn btn-primary">
+            <a href="https://github.com/AlexPurfield/work_day_scheduler" className="btn light-grey-button">
               GitHub
             </a>
           </div>
