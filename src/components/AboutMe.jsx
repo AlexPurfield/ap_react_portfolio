@@ -1,7 +1,8 @@
 import React from 'react';
+import '../style/About.css';
 export default function About() {
   return (
-    <div className="custom-div">
+    <div className="container mt-4 about-container">
       <h1 className="display-4 text-pink">About Me</h1>
       <img src="../images/profile pic .jpg" className="float-start img-fluid w-25 m-3 custom-img-with-border" alt="profile.picture"></img>
       <p className="lead">
