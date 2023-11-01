@@ -1,24 +1,59 @@
 /* Make the body and HTML elements take up the full height of the viewport */
 html, body {
-    height: 100%;
-  }
-  
-  /* Apply flexbox to the body to push the footer to the bottom */
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* Create a flex-grow class for the main content to push the footer down */
-  .main-content {
-    flex: 1;
-  }
-  
-  /* Style the footer */
-  .footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
+  height: 100%;
+}
+
+/* Apply flexbox to the body to push the footer to the bottom */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+}
+
+/* Create a flex-grow class for the main content to push the footer down */
+.main-content {
+  flex: 1;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333 !important;
+  color: #FF69B4 !important; /* Use !important to override Bootstrap */
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Style links in the footer */
+.footer a {
+  color: #FF69B4 !important; /* Use !important to override Bootstrap */
+  text-decoration: none;
+}
+
+/* Add styles for link hover and active states */
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer a:focus {
+  text-decoration: underline;
+}
+
+.footer a:active {
+  color: #FF69B4 !important; /* Use !important to override Bootstrap if needed */
+}
+
+
+.footer a:active {
+  color: #FF69B4; /* Change link color on active state if needed */
+}
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
+  gap: 20px; /* Adjust the spacing between icons as needed */
+  font-size: 50px; /* Adjust the size as needed */
+}
+
+.social-icons a {
+  text-decoration: none;
+}

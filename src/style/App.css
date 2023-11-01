@@ -20,6 +20,19 @@
 }
 
 /* Add more custom styles to other elements as necessary */
+/* Your existing custom Bootstrap variables */
+
+/* Add styles for the wrapper */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the wrapper takes the full viewport height */
+}
+
+/* Add styles for the main content */
+.main-content {
+  flex: 1; /* Make the main content grow to fill available space */
+}
 
 
   

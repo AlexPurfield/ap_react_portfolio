@@ -8,8 +8,17 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h5>Footer Title</h5>
-            <p>Some information about your website or contact details can go here.</p>
+            <h5 className='footer'>Social Links</h5>
+            
+             <div className="social-icons">
+              <a href="https://linkedin.com/in/alex-purfield-633177153" className="text-white">
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/AlexPurfield" className="text-white">
+                <i className="fab fa-github"></i>
+              </a>
+             </div>
+           
           </div>
           <div className="col">
             <h5>Quick Links</h5>
