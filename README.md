@@ -4,6 +4,8 @@
   My personal portfolio using React.
 
   ## Table of Contents
+  * [User Story](#user-story)
+  * [Acceptance Criteria](#acceptance-criteria)
   * [Built With](#BuiltWith)
   * [Questions](#Questions)
 
