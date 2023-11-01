@@ -1,0 +1,24 @@
+/* Make the body and HTML elements take up the full height of the viewport */
+html, body {
+    height: 100%;
+  }
+  
+  /* Apply flexbox to the body to push the footer to the bottom */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Create a flex-grow class for the main content to push the footer down */
+  .main-content {
+    flex: 1;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
