@@ -38,16 +38,16 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="card" style={{ width: '18rem' }}>
-          <img src="./images/harry_potter_fan.png" className="card-img-top" alt="fan page screenshot" />
+          <img src="./images/hack_the_planet.png" className="card-img-top" alt="fan page screenshot" />
           <div className="card-body">
             <h5 className="card-title">Harry Potter Fan Page</h5>
             <p className="card-text">
-              A group project that showcased front-end skills and applied Agile development. 
+              Hack the Planet. A group project e-commerce site made with MERN Stack. 
             </p>
-            <a href="https://nfillip.github.io/harrypotter-fanpage/" className="btn light-grey-button">
+            <a href="https://devshacktheplanet-44c29a23ae44.herokuapp.com/" className="btn light-grey-button">
               Live Site
             </a>
-            <a href="https://github.com/nfillip/harrypotter-fanpage" className="btn light-grey-button">
+            <a href="https://github.com/AlexPurfield/hack_the_planet" className="btn light-grey-button">
               GitHub
             </a>
           </div>
