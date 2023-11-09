@@ -40,7 +40,7 @@ export default function Portfolio() {
         <div className="card" style={{ width: '18rem' }}>
           <img src="./images/hack_the_planet.png" className="card-img-top" alt="fan page screenshot" />
           <div className="card-body">
-            <h5 className="card-title">Harry Potter Fan Page</h5>
+            <h5 className="card-title">Hack the Planet</h5>
             <p className="card-text">
               Hack the Planet. A group project e-commerce site made with MERN Stack. 
             </p>
