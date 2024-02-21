@@ -2,7 +2,7 @@ export default function Resume() {
     return (
       <div className="container mt-4 about-container">
       <h1 className="display-6 text-pink">My Resume</h1>
-      <a href= "/Alex_Purfield_Resume2023(final).pdf" download>Download Resume</a>
+      <a href= "/Resume2024-Alex-Purfield.pdf" download>Download Resume</a>
       <h2 className="display-6 text-pink">Proficiencies</h2>
       <ul>
         <li>JavaScript</li>
